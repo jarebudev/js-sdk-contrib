@@ -1,5 +1,36 @@
 # Changelog
 
+## [0.5.0](https://github.com/jarebudev/js-sdk-contrib/compare/open-telemetry-hooks-v0.4.0...open-telemetry-hooks-v0.5.0) (2024-12-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* update OpenFeature SDK peer ([#798](https://github.com/jarebudev/js-sdk-contrib/issues/798))
+* use @openfeature/server-sdk peer ([#608](https://github.com/jarebudev/js-sdk-contrib/issues/608))
+
+### 🐛 Bug Fixes
+
+* packaging issues impacting babel/react ([#596](https://github.com/jarebudev/js-sdk-contrib/issues/596)) ([0446eab](https://github.com/jarebudev/js-sdk-contrib/commit/0446eab5cf9b45ce7de251b4f5feb8df1d499b9d))
+
+
+### ✨ New Features
+
+* add custom attrs to traces ([#520](https://github.com/jarebudev/js-sdk-contrib/issues/520)) ([28fbd12](https://github.com/jarebudev/js-sdk-contrib/commit/28fbd12f206202ab626d30bdfbbe5b04e75626af))
+* custom attribute support ([#499](https://github.com/jarebudev/js-sdk-contrib/issues/499)) ([c2deddf](https://github.com/jarebudev/js-sdk-contrib/commit/c2deddf288e1eb9e55d56ea58eba5f8afb8cccc5))
+* update OpenFeature SDK peer ([#798](https://github.com/jarebudev/js-sdk-contrib/issues/798)) ([ebd16b9](https://github.com/jarebudev/js-sdk-contrib/commit/ebd16b9630bcc6b253a7061a144e8d476cd8b586))
+
+
+### 🧹 Chore
+
+* address lint issues ([#642](https://github.com/jarebudev/js-sdk-contrib/issues/642)) ([bbd9aee](https://github.com/jarebudev/js-sdk-contrib/commit/bbd9aee896dc4a0817f379b799a1b8d331ee76c6))
+* fix lint issues and bump server sdk version ([#715](https://github.com/jarebudev/js-sdk-contrib/issues/715)) ([bd57177](https://github.com/jarebudev/js-sdk-contrib/commit/bd571770f3a1a01bd62663dc3473273449f96c5c))
+* **main:** release open-telemetry-hooks 0.2.3 ([#501](https://github.com/jarebudev/js-sdk-contrib/issues/501)) ([3ca96eb](https://github.com/jarebudev/js-sdk-contrib/commit/3ca96ebeff342dbeaf78e26a8ed4e48c05da254e))
+* **main:** release open-telemetry-hooks 0.2.4 ([#524](https://github.com/jarebudev/js-sdk-contrib/issues/524)) ([e1ad4f1](https://github.com/jarebudev/js-sdk-contrib/commit/e1ad4f1e19b549ebc3e207c999a9c5306a2f79b1))
+* **main:** release open-telemetry-hooks 0.3.0 ([#563](https://github.com/jarebudev/js-sdk-contrib/issues/563)) ([058a47c](https://github.com/jarebudev/js-sdk-contrib/commit/058a47c2262e2f049ed6bd57f818aa5aa2c9c2c9))
+* **main:** release open-telemetry-hooks 0.4.0 ([#645](https://github.com/jarebudev/js-sdk-contrib/issues/645)) ([6bf611f](https://github.com/jarebudev/js-sdk-contrib/commit/6bf611f59aa17164a598959567c368b24403b296))
+* update nx, run migrations ([#552](https://github.com/jarebudev/js-sdk-contrib/issues/552)) ([a88d8fc](https://github.com/jarebudev/js-sdk-contrib/commit/a88d8fc097789fd7f56011e6ebb66070f52c6e56))
+* use @openfeature/server-sdk peer ([#608](https://github.com/jarebudev/js-sdk-contrib/issues/608)) ([ae3732a](https://github.com/jarebudev/js-sdk-contrib/commit/ae3732a9068f684517db28ea1ae27b29a35e6b16))
+
 ## [0.4.0](https://github.com/open-feature/js-sdk-contrib/compare/open-telemetry-hooks-v0.3.0...open-telemetry-hooks-v0.4.0) (2024-03-25)
 
 
