@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.4.0](https://github.com/jarebudev/js-sdk-contrib/compare/env-var-provider-v0.3.1...env-var-provider-v0.4.0) (2025-01-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* update OpenFeature SDK peer ([#798](https://github.com/jarebudev/js-sdk-contrib/issues/798))
+* use @openfeature/server-sdk peer ([#608](https://github.com/jarebudev/js-sdk-contrib/issues/608))
+
+### 🐛 Bug Fixes
+
+* **env-var:** set runs on property to server ([#981](https://github.com/jarebudev/js-sdk-contrib/issues/981)) ([919761d](https://github.com/jarebudev/js-sdk-contrib/commit/919761d8926fc102c84b11288d4c6d1ff3e3fc05))
+* packaging issues impacting babel/react ([#596](https://github.com/jarebudev/js-sdk-contrib/issues/596)) ([0446eab](https://github.com/jarebudev/js-sdk-contrib/commit/0446eab5cf9b45ce7de251b4f5feb8df1d499b9d))
+
+
+### ✨ New Features
+
+* update OpenFeature SDK peer ([#798](https://github.com/jarebudev/js-sdk-contrib/issues/798)) ([ebd16b9](https://github.com/jarebudev/js-sdk-contrib/commit/ebd16b9630bcc6b253a7061a144e8d476cd8b586))
+
+
+### 🧹 Chore
+
+* address lint issues ([#642](https://github.com/jarebudev/js-sdk-contrib/issues/642)) ([bbd9aee](https://github.com/jarebudev/js-sdk-contrib/commit/bbd9aee896dc4a0817f379b799a1b8d331ee76c6))
+* fix lint issues and bump server sdk version ([#715](https://github.com/jarebudev/js-sdk-contrib/issues/715)) ([bd57177](https://github.com/jarebudev/js-sdk-contrib/commit/bd571770f3a1a01bd62663dc3473273449f96c5c))
+* **main:** release env-var-provider 0.2.0 ([#374](https://github.com/jarebudev/js-sdk-contrib/issues/374)) ([5094448](https://github.com/jarebudev/js-sdk-contrib/commit/509444802eb4f4a585bc500bc3e0bae5d7edcf16))
+* **main:** release env-var-provider 0.3.0 ([#647](https://github.com/jarebudev/js-sdk-contrib/issues/647)) ([c12d71f](https://github.com/jarebudev/js-sdk-contrib/commit/c12d71f30325ef52be5065d69b63434d330004b6))
+* **main:** release env-var-provider 0.3.1 ([#985](https://github.com/jarebudev/js-sdk-contrib/issues/985)) ([58624de](https://github.com/jarebudev/js-sdk-contrib/commit/58624decf0b5e52458107eed194697091e24f8b1))
+* update nx, run migrations ([#552](https://github.com/jarebudev/js-sdk-contrib/issues/552)) ([a88d8fc](https://github.com/jarebudev/js-sdk-contrib/commit/a88d8fc097789fd7f56011e6ebb66070f52c6e56))
+* use @openfeature/server-sdk peer ([#608](https://github.com/jarebudev/js-sdk-contrib/issues/608)) ([ae3732a](https://github.com/jarebudev/js-sdk-contrib/commit/ae3732a9068f684517db28ea1ae27b29a35e6b16))
+
 ## [0.3.1](https://github.com/open-feature/js-sdk-contrib/compare/env-var-provider-v0.3.0...env-var-provider-v0.3.1) (2024-07-10)
 
 
