@@ -1,5 +1,35 @@
 # Changelog
 
+## [0.4.0](https://github.com/jarebudev/js-sdk-contrib/compare/launchdarkly-client-provider-v0.3.1...launchdarkly-client-provider-v0.4.0) (2025-01-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* update OpenFeature SDK peer ([#798](https://github.com/jarebudev/js-sdk-contrib/issues/798))
+
+### 🐛 Bug Fixes
+
+* packaging issues impacting babel/react ([#596](https://github.com/jarebudev/js-sdk-contrib/issues/596)) ([0446eab](https://github.com/jarebudev/js-sdk-contrib/commit/0446eab5cf9b45ce7de251b4f5feb8df1d499b9d))
+
+
+### ✨ New Features
+
+* Accept timeout for LD waitForInitialization ([#1117](https://github.com/jarebudev/js-sdk-contrib/issues/1117)) ([be7851c](https://github.com/jarebudev/js-sdk-contrib/commit/be7851ce59a772a32d60fcb3f2d23eac3c862087))
+* update OpenFeature SDK peer ([#798](https://github.com/jarebudev/js-sdk-contrib/issues/798)) ([ebd16b9](https://github.com/jarebudev/js-sdk-contrib/commit/ebd16b9630bcc6b253a7061a144e8d476cd8b586))
+
+
+### 🧹 Chore
+
+* address lint issues ([#642](https://github.com/jarebudev/js-sdk-contrib/issues/642)) ([bbd9aee](https://github.com/jarebudev/js-sdk-contrib/commit/bbd9aee896dc4a0817f379b799a1b8d331ee76c6))
+* fix lint issues and bump server sdk version ([#715](https://github.com/jarebudev/js-sdk-contrib/issues/715)) ([bd57177](https://github.com/jarebudev/js-sdk-contrib/commit/bd571770f3a1a01bd62663dc3473273449f96c5c))
+* loosen some test assertions, fix e2e matcher ([#933](https://github.com/jarebudev/js-sdk-contrib/issues/933)) ([8def607](https://github.com/jarebudev/js-sdk-contrib/commit/8def6072c5d29eaf81d7262b6878cb3d6ff40483))
+* **main:** release launchdarkly-client-provider 0.2.1 ([#567](https://github.com/jarebudev/js-sdk-contrib/issues/567)) ([872b5ab](https://github.com/jarebudev/js-sdk-contrib/commit/872b5ab0b4b05ef7a5a4115b7cecf34fc5e496a2))
+* **main:** release launchdarkly-client-provider 0.3.0 ([#806](https://github.com/jarebudev/js-sdk-contrib/issues/806)) ([8bc10d1](https://github.com/jarebudev/js-sdk-contrib/commit/8bc10d113c029ac4621bf1e909f75dbb5f92beef))
+* **main:** release launchdarkly-client-provider 0.3.1 ([#935](https://github.com/jarebudev/js-sdk-contrib/issues/935)) ([929ff6d](https://github.com/jarebudev/js-sdk-contrib/commit/929ff6de5f288c557e68bddb54247d40833b1961))
+* update nx, run migrations ([#552](https://github.com/jarebudev/js-sdk-contrib/issues/552)) ([a88d8fc](https://github.com/jarebudev/js-sdk-contrib/commit/a88d8fc097789fd7f56011e6ebb66070f52c6e56))
+* Update README.md launchdarkly-client typo ([#636](https://github.com/jarebudev/js-sdk-contrib/issues/636)) ([37fa182](https://github.com/jarebudev/js-sdk-contrib/commit/37fa182da225c5c0a676737828538a07454d4485))
+* update README.md to include client provider import ([#668](https://github.com/jarebudev/js-sdk-contrib/issues/668)) ([28d1e01](https://github.com/jarebudev/js-sdk-contrib/commit/28d1e010edbd8a4ddf759e2a2602acc06cbe0b57))
+
 ## [0.3.1](https://github.com/open-feature/js-sdk-contrib/compare/launchdarkly-client-provider-v0.3.0...launchdarkly-client-provider-v0.3.1) (2024-12-17)
 
 
