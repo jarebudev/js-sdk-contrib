@@ -1,5 +1,49 @@
 # Changelog
 
+## [0.8.0](https://github.com/jarebudev/js-sdk-contrib/compare/flagd-web-provider-v0.7.2...flagd-web-provider-v0.8.0) (2025-01-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* allow overrides for fractional seed ([#870](https://github.com/jarebudev/js-sdk-contrib/issues/870))
+* update OpenFeature SDK peer ([#798](https://github.com/jarebudev/js-sdk-contrib/issues/798))
+* use new eval/sync protos (requires flagd v0.7.3+)  ([#762](https://github.com/jarebudev/js-sdk-contrib/issues/762))
+
+### 🐛 Bug Fixes
+
+* packaging issues impacting babel/react ([#596](https://github.com/jarebudev/js-sdk-contrib/issues/596)) ([0446eab](https://github.com/jarebudev/js-sdk-contrib/commit/0446eab5cf9b45ce7de251b4f5feb8df1d499b9d))
+* tsc issue with flagd-web proto output ([#695](https://github.com/jarebudev/js-sdk-contrib/issues/695)) ([65e448c](https://github.com/jarebudev/js-sdk-contrib/commit/65e448ce852bcdb06d76c412dd4577be07a165ce))
+
+
+### ✨ New Features
+
+* Add interceptors to flagd options. ([#894](https://github.com/jarebudev/js-sdk-contrib/issues/894)) ([878b7b6](https://github.com/jarebudev/js-sdk-contrib/commit/878b7b6e11853a8dcc2952e5767b7d275de72313))
+* allow overrides for fractional seed ([#870](https://github.com/jarebudev/js-sdk-contrib/issues/870)) ([6c376b2](https://github.com/jarebudev/js-sdk-contrib/commit/6c376b2f525be04c15b5c3bd32d89cc9c4c66729))
+* Change fractional custom op from percentage-based to relative weighting. [#946](https://github.com/jarebudev/js-sdk-contrib/issues/946) ([#954](https://github.com/jarebudev/js-sdk-contrib/issues/954)) ([0e9bc84](https://github.com/jarebudev/js-sdk-contrib/commit/0e9bc842cf09de12e8445dcb4e0e8b3623c66099))
+* update OpenFeature SDK peer ([#798](https://github.com/jarebudev/js-sdk-contrib/issues/798)) ([ebd16b9](https://github.com/jarebudev/js-sdk-contrib/commit/ebd16b9630bcc6b253a7061a144e8d476cd8b586))
+* use new eval/sync protos (requires flagd v0.7.3+)  ([#762](https://github.com/jarebudev/js-sdk-contrib/issues/762)) ([4da9deb](https://github.com/jarebudev/js-sdk-contrib/commit/4da9deb48c6bd0c106b176fc7e3730cf50e60b6d))
+* use updated proto ([#773](https://github.com/jarebudev/js-sdk-contrib/issues/773)) ([437bbe4](https://github.com/jarebudev/js-sdk-contrib/commit/437bbe4334ef8104d27bb40e9c109164f2a25ca5))
+
+
+### 🧹 Chore
+
+* add e2e tests for flagd ([#554](https://github.com/jarebudev/js-sdk-contrib/issues/554)) ([9ecdcdf](https://github.com/jarebudev/js-sdk-contrib/commit/9ecdcdf1660fe27afb4b0c58160c7ba687e29be2))
+* address lint issues ([#642](https://github.com/jarebudev/js-sdk-contrib/issues/642)) ([bbd9aee](https://github.com/jarebudev/js-sdk-contrib/commit/bbd9aee896dc4a0817f379b799a1b8d331ee76c6))
+* **deps:** update libs/providers/flagd-web/schemas digest to 37baa2c ([#1148](https://github.com/jarebudev/js-sdk-contrib/issues/1148)) ([36ec82a](https://github.com/jarebudev/js-sdk-contrib/commit/36ec82a5581e436b699d4b8238908fa4d5817deb))
+* **deps:** update libs/providers/flagd-web/schemas digest to b81a56e ([#1131](https://github.com/jarebudev/js-sdk-contrib/issues/1131)) ([828145a](https://github.com/jarebudev/js-sdk-contrib/commit/828145a89da13bbd90bca352a6488aecb62b764b))
+* **main:** release flagd-web-provider 0.4.1 ([#559](https://github.com/jarebudev/js-sdk-contrib/issues/559)) ([b1eae30](https://github.com/jarebudev/js-sdk-contrib/commit/b1eae300c3473cfde421f6d369f15da1331d6b63))
+* **main:** release flagd-web-provider 0.5.0 ([#766](https://github.com/jarebudev/js-sdk-contrib/issues/766)) ([79f1009](https://github.com/jarebudev/js-sdk-contrib/commit/79f1009f416303071ccfd66002d06f50aa892fe1))
+* **main:** release flagd-web-provider 0.5.1 ([#774](https://github.com/jarebudev/js-sdk-contrib/issues/774)) ([d319d7c](https://github.com/jarebudev/js-sdk-contrib/commit/d319d7cc63c4a5e64ca7cbc7718e0e2a75d2cc9d))
+* **main:** release flagd-web-provider 0.6.0 ([#807](https://github.com/jarebudev/js-sdk-contrib/issues/807)) ([61af01f](https://github.com/jarebudev/js-sdk-contrib/commit/61af01f2b3e12e9d0830b50ea7bd31c069734d47))
+* **main:** release flagd-web-provider 0.7.0 ([#874](https://github.com/jarebudev/js-sdk-contrib/issues/874)) ([24deab0](https://github.com/jarebudev/js-sdk-contrib/commit/24deab0de84c11e1d5dce2a1f254eb63241e355c))
+* **main:** release flagd-web-provider 0.7.1 ([#895](https://github.com/jarebudev/js-sdk-contrib/issues/895)) ([927773e](https://github.com/jarebudev/js-sdk-contrib/commit/927773ed49348d3a642af75a09e0a0fae0f3810d))
+* **main:** release flagd-web-provider 0.7.2 ([#975](https://github.com/jarebudev/js-sdk-contrib/issues/975)) ([6b09633](https://github.com/jarebudev/js-sdk-contrib/commit/6b09633773a67008ef57481dc9decb4347b3ce20))
+* migrate from bufbuild to connectrpc ([#891](https://github.com/jarebudev/js-sdk-contrib/issues/891)) ([df7b89d](https://github.com/jarebudev/js-sdk-contrib/commit/df7b89d519da793f64bb6cba0984a7bf4764bafa))
+* removing build dependencies and using testcontainers for container spin up ([#982](https://github.com/jarebudev/js-sdk-contrib/issues/982)) ([2d64331](https://github.com/jarebudev/js-sdk-contrib/commit/2d6433101b76ba9ad266095fe31b58314f82a105))
+* update nx, run migrations ([#552](https://github.com/jarebudev/js-sdk-contrib/issues/552)) ([a88d8fc](https://github.com/jarebudev/js-sdk-contrib/commit/a88d8fc097789fd7f56011e6ebb66070f52c6e56))
+* use spec submodule ([#568](https://github.com/jarebudev/js-sdk-contrib/issues/568)) ([3feb18e](https://github.com/jarebudev/js-sdk-contrib/commit/3feb18e0ffa77b87e799a2b5250413f03a4c69e9))
+* various gherkin improvements for e2e tests ([#1008](https://github.com/jarebudev/js-sdk-contrib/issues/1008)) ([40abd8e](https://github.com/jarebudev/js-sdk-contrib/commit/40abd8eca76b47bb5c084b377302821968acd19c))
+
 ## [0.7.2](https://github.com/open-feature/js-sdk-contrib/compare/flagd-web-provider-v0.7.1...flagd-web-provider-v0.7.2) (2024-07-08)
 
 
