@@ -1,5 +1,74 @@
 # Changelog
 
+## [2.0.0](https://github.com/jarebudev/js-sdk-contrib/compare/flagd-core-v1.0.0...flagd-core-v2.0.0) (2025-01-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* improve eval performance, restructure lib, support flag metadata ([#1120](https://github.com/jarebudev/js-sdk-contrib/issues/1120))
+* allow overrides for fractional seed ([#870](https://github.com/jarebudev/js-sdk-contrib/issues/870))
+
+### 🐛 Bug Fixes
+
+* "in" op by using json-logic-js ([#671](https://github.com/jarebudev/js-sdk-contrib/issues/671)) ([4b5e2fe](https://github.com/jarebudev/js-sdk-contrib/commit/4b5e2fe5cf89385a8cf5e6be5b4bc0a50d4b791d))
+* false positive of a falsy variant value check ([#651](https://github.com/jarebudev/js-sdk-contrib/issues/651)) ([1c7dc66](https://github.com/jarebudev/js-sdk-contrib/commit/1c7dc660d15e00f84ad303d373417f8bb7b71966))
+* falsy boolean shorthand logic ([#746](https://github.com/jarebudev/js-sdk-contrib/issues/746)) ([0772c90](https://github.com/jarebudev/js-sdk-contrib/commit/0772c90c10906e47109567ba1ac35fe8b38fbe74))
+* fixed issue with nested fractional evaluations ([#686](https://github.com/jarebudev/js-sdk-contrib/issues/686)) ([e0dbfdb](https://github.com/jarebudev/js-sdk-contrib/commit/e0dbfdb2c73b45bdbadb22b4198b0134e395548a))
+* **flagd-core:** use injected logger ([#1057](https://github.com/jarebudev/js-sdk-contrib/issues/1057)) ([4e21b83](https://github.com/jarebudev/js-sdk-contrib/commit/4e21b836b62b6f26ee966c8f0ff6fd876a3e353a))
+* **flagd:** improve targeting key check in fractional operator ([#1048](https://github.com/jarebudev/js-sdk-contrib/issues/1048)) ([7d82649](https://github.com/jarebudev/js-sdk-contrib/commit/7d8264994b62f00d2f3e6b88e98ecf2c85ea8b87))
+* init in-process error, throw on invalid rules ([#767](https://github.com/jarebudev/js-sdk-contrib/issues/767)) ([e9f9e74](https://github.com/jarebudev/js-sdk-contrib/commit/e9f9e74d66e9f8666eebb8d06141fce713c7914c))
+* orphaned grpc connection, semver ~, change events ([#654](https://github.com/jarebudev/js-sdk-contrib/issues/654)) ([5afbea7](https://github.com/jarebudev/js-sdk-contrib/commit/5afbea754983f95858bf1bdfd15ab51793b0b72e))
+* re-add browser support ([#706](https://github.com/jarebudev/js-sdk-contrib/issues/706)) ([c262c66](https://github.com/jarebudev/js-sdk-contrib/commit/c262c66497e0cc7d8b7ea2d9cc5b85f5d31093e6))
+* treat empty targeting rules as static ([#696](https://github.com/jarebudev/js-sdk-contrib/issues/696)) ([8bff89d](https://github.com/jarebudev/js-sdk-contrib/commit/8bff89d023486734a739dbdfb016b2966ec43436))
+* update disabled behavior to match spec  ([#744](https://github.com/jarebudev/js-sdk-contrib/issues/744)) ([3f6b4f4](https://github.com/jarebudev/js-sdk-contrib/commit/3f6b4f43e7e79a70517d1d654355cf4b82a31188))
+* update json logic engine and schema ([#914](https://github.com/jarebudev/js-sdk-contrib/issues/914)) ([04f0dfd](https://github.com/jarebudev/js-sdk-contrib/commit/04f0dfd1427dbd529bd2d650dfa27f25e89f7e07))
+
+
+### ✨ New Features
+
+* add targeting validation/warning ([#878](https://github.com/jarebudev/js-sdk-contrib/issues/878)) ([2a4dbcf](https://github.com/jarebudev/js-sdk-contrib/commit/2a4dbcf0daa6b55e7cc73aa9b4a1fb481054e752))
+* allow overrides for fractional seed ([#870](https://github.com/jarebudev/js-sdk-contrib/issues/870)) ([6c376b2](https://github.com/jarebudev/js-sdk-contrib/commit/6c376b2f525be04c15b5c3bd32d89cc9c4c66729))
+* Change fractional custom op from percentage-based to relative weighting. [#946](https://github.com/jarebudev/js-sdk-contrib/issues/946) ([#954](https://github.com/jarebudev/js-sdk-contrib/issues/954)) ([0e9bc84](https://github.com/jarebudev/js-sdk-contrib/commit/0e9bc842cf09de12e8445dcb4e0e8b3623c66099))
+* flagd-core json logic evaluator ([#623](https://github.com/jarebudev/js-sdk-contrib/issues/623)) ([72eacd3](https://github.com/jarebudev/js-sdk-contrib/commit/72eacd33ab7147d7348ee125c57282bccd3af9d5))
+* **flagd-core:** add bulk evaluation method ([#1010](https://github.com/jarebudev/js-sdk-contrib/issues/1010)) ([52aebed](https://github.com/jarebudev/js-sdk-contrib/commit/52aebedc0033ce273b707adcc57e80e765cc98e9))
+* **flagd-core:** add update config support, returns changed keys ([#703](https://github.com/jarebudev/js-sdk-contrib/issues/703)) ([fa393a6](https://github.com/jarebudev/js-sdk-contrib/commit/fa393a6c03ddeacc2899db4d4911cb06712211ba))
+* improve eval performance, restructure lib, support flag metadata ([#1120](https://github.com/jarebudev/js-sdk-contrib/issues/1120)) ([f1ed82a](https://github.com/jarebudev/js-sdk-contrib/commit/f1ed82acba4430ffafbe9057576371e09f1791ff))
+* Initial version of the flagd js core ([#620](https://github.com/jarebudev/js-sdk-contrib/issues/620)) ([8fac8cb](https://github.com/jarebudev/js-sdk-contrib/commit/8fac8cb902c8803200b3dbc74eace3d623746b4e))
+
+
+### 🧹 Chore
+
+* address lint issues ([#642](https://github.com/jarebudev/js-sdk-contrib/issues/642)) ([bbd9aee](https://github.com/jarebudev/js-sdk-contrib/commit/bbd9aee896dc4a0817f379b799a1b8d331ee76c6))
+* **deps:** update dependency libs/shared/flagd-core/test-harness to v0.5.20 ([#1136](https://github.com/jarebudev/js-sdk-contrib/issues/1136)) ([c69590d](https://github.com/jarebudev/js-sdk-contrib/commit/c69590d9c201a5769aa6a17705072376683143e7))
+* **deps:** update dependency libs/shared/flagd-core/test-harness to v0.5.21 ([#1154](https://github.com/jarebudev/js-sdk-contrib/issues/1154)) ([63adf97](https://github.com/jarebudev/js-sdk-contrib/commit/63adf97c0f44f4661ca38e793e21f60e1678f07b))
+* **deps:** update libs/shared/flagd-core/flagd-schemas digest to b81a56e ([#1134](https://github.com/jarebudev/js-sdk-contrib/issues/1134)) ([7e40edd](https://github.com/jarebudev/js-sdk-contrib/commit/7e40edda9f2b6358a454a96fa64627b7c00098e2))
+* **deps:** update libs/shared/flagd-core/spec digest to d261f68 ([#1152](https://github.com/jarebudev/js-sdk-contrib/issues/1152)) ([40b7b0a](https://github.com/jarebudev/js-sdk-contrib/commit/40b7b0a4dd7b83cd3a205a54214bd2d8ec5b5a69))
+* **deps:** update libs/shared/flagd-core/spec digest to ed0f9ef ([#1135](https://github.com/jarebudev/js-sdk-contrib/issues/1135)) ([225a465](https://github.com/jarebudev/js-sdk-contrib/commit/225a46532b3822a6fd8ae33b616a792a62c485e8))
+* improve logger, parsing and add helpers ([#689](https://github.com/jarebudev/js-sdk-contrib/issues/689)) ([fa0a238](https://github.com/jarebudev/js-sdk-contrib/commit/fa0a238bc4533e431e2c2969303866e74f4f181f))
+* **main:** release flagd-core 0.1.1 ([#630](https://github.com/jarebudev/js-sdk-contrib/issues/630)) ([c3b8431](https://github.com/jarebudev/js-sdk-contrib/commit/c3b8431f769afa83f24da12107f0c4b1e2b572ec))
+* **main:** release flagd-core 0.1.10 ([#747](https://github.com/jarebudev/js-sdk-contrib/issues/747)) ([9728ea1](https://github.com/jarebudev/js-sdk-contrib/commit/9728ea100faeae1a96c95ec7e69dae6f78082cdb))
+* **main:** release flagd-core 0.1.11 ([#768](https://github.com/jarebudev/js-sdk-contrib/issues/768)) ([8c56544](https://github.com/jarebudev/js-sdk-contrib/commit/8c56544bbf4965cb119925c0a73e3db06ec4c62a))
+* **main:** release flagd-core 0.1.2 ([#646](https://github.com/jarebudev/js-sdk-contrib/issues/646)) ([ca7efd3](https://github.com/jarebudev/js-sdk-contrib/commit/ca7efd3abfa805aad78e2af5da046180aa6bf6fc))
+* **main:** release flagd-core 0.1.3 ([#655](https://github.com/jarebudev/js-sdk-contrib/issues/655)) ([a673c7e](https://github.com/jarebudev/js-sdk-contrib/commit/a673c7ede01fee858e7dbe0666233308a95409cc))
+* **main:** release flagd-core 0.1.4 ([#687](https://github.com/jarebudev/js-sdk-contrib/issues/687)) ([9ff3855](https://github.com/jarebudev/js-sdk-contrib/commit/9ff38558348c8e590f2973ccd560b8710b3b6dc7))
+* **main:** release flagd-core 0.1.5 ([#697](https://github.com/jarebudev/js-sdk-contrib/issues/697)) ([c8dc40c](https://github.com/jarebudev/js-sdk-contrib/commit/c8dc40c925f25f9cf3b64c65505023a9f09335a3))
+* **main:** release flagd-core 0.1.6 ([#705](https://github.com/jarebudev/js-sdk-contrib/issues/705)) ([8e8cfdd](https://github.com/jarebudev/js-sdk-contrib/commit/8e8cfdd616e138e8c17af47801dbdeb3ab258f48))
+* **main:** release flagd-core 0.1.7 ([#707](https://github.com/jarebudev/js-sdk-contrib/issues/707)) ([476137e](https://github.com/jarebudev/js-sdk-contrib/commit/476137e61e0aa2cff8b27da7454b7cf8ce897d3b))
+* **main:** release flagd-core 0.1.8 ([#720](https://github.com/jarebudev/js-sdk-contrib/issues/720)) ([35ae705](https://github.com/jarebudev/js-sdk-contrib/commit/35ae7059a08512e25f071621cb42c069a38ce093))
+* **main:** release flagd-core 0.1.9 ([#745](https://github.com/jarebudev/js-sdk-contrib/issues/745)) ([f7229ad](https://github.com/jarebudev/js-sdk-contrib/commit/f7229adf691ff24b6ac3e4848ded0c59b8c5773c))
+* **main:** release flagd-core 0.2.0 ([#875](https://github.com/jarebudev/js-sdk-contrib/issues/875)) ([5c22142](https://github.com/jarebudev/js-sdk-contrib/commit/5c2214260f707a414ca50932a4872c08bdd14c07))
+* **main:** release flagd-core 0.2.1 ([#888](https://github.com/jarebudev/js-sdk-contrib/issues/888)) ([d8e1064](https://github.com/jarebudev/js-sdk-contrib/commit/d8e106470e988d1dc09b7ea4c99b88e977daea56))
+* **main:** release flagd-core 0.2.2 ([#915](https://github.com/jarebudev/js-sdk-contrib/issues/915)) ([3c742cb](https://github.com/jarebudev/js-sdk-contrib/commit/3c742cbc2a61f3b5d3e6038cd16242f48ce5ed7f))
+* **main:** release flagd-core 0.2.3 ([#976](https://github.com/jarebudev/js-sdk-contrib/issues/976)) ([431bf21](https://github.com/jarebudev/js-sdk-contrib/commit/431bf21cceac2cef1c0bd22474c455259d3822ba))
+* **main:** release flagd-core 0.2.4 ([#997](https://github.com/jarebudev/js-sdk-contrib/issues/997)) ([533e217](https://github.com/jarebudev/js-sdk-contrib/commit/533e21795f2ca41713f165ee16f479c4a97ebb5b))
+* **main:** release flagd-core 0.2.5 ([#1049](https://github.com/jarebudev/js-sdk-contrib/issues/1049)) ([f992e34](https://github.com/jarebudev/js-sdk-contrib/commit/f992e34a244c0907a552174408ae65d014cbd391))
+* **main:** release flagd-core 1.0.0 ([#1058](https://github.com/jarebudev/js-sdk-contrib/issues/1058)) ([14405a7](https://github.com/jarebudev/js-sdk-contrib/commit/14405a704bb9cfa0e4946c8f1bb5851e22e3fbdf))
+* make @openfeature/core peer of flagd/core ([#631](https://github.com/jarebudev/js-sdk-contrib/issues/631)) ([3db7c0c](https://github.com/jarebudev/js-sdk-contrib/commit/3db7c0c739c84be9fa9cedb87b5e0521a1a0d89c))
+* removing build dependencies and using testcontainers for container spin up ([#982](https://github.com/jarebudev/js-sdk-contrib/issues/982)) ([2d64331](https://github.com/jarebudev/js-sdk-contrib/commit/2d6433101b76ba9ad266095fe31b58314f82a105))
+* throw ParseError on invalid flagd config ([#714](https://github.com/jarebudev/js-sdk-contrib/issues/714)) ([837bf08](https://github.com/jarebudev/js-sdk-contrib/commit/837bf0887a8b68e6418963160344af1aaeabbf0a))
+* update flagd json schema ([#994](https://github.com/jarebudev/js-sdk-contrib/issues/994)) ([95fc808](https://github.com/jarebudev/js-sdk-contrib/commit/95fc8089641049a6edee3bcbac303f38fbc3fa26))
+* various gherkin improvements for e2e tests ([#1008](https://github.com/jarebudev/js-sdk-contrib/issues/1008)) ([40abd8e](https://github.com/jarebudev/js-sdk-contrib/commit/40abd8eca76b47bb5c084b377302821968acd19c))
+
 ## [1.0.0](https://github.com/open-feature/js-sdk-contrib/compare/flagd-core-v0.2.5...flagd-core-v1.0.0) (2025-01-07)
 
 
