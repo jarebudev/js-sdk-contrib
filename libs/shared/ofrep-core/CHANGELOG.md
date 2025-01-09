@@ -1,5 +1,49 @@
 # Changelog
 
+## [0.3.0](https://github.com/jarebudev/js-sdk-contrib/compare/ofrep-core-v0.2.0...ofrep-core-v0.3.0) (2025-01-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* use native headers, optional query params ([#1003](https://github.com/jarebudev/js-sdk-contrib/issues/1003))
+
+### 🐛 Bug Fixes
+
+* fixes an issue where OFREP does not send content type headers ([#882](https://github.com/jarebudev/js-sdk-contrib/issues/882)) ([b3289e5](https://github.com/jarebudev/js-sdk-contrib/commit/b3289e5083e97946f4ab62a6f2f10bb1402e7a55))
+* OFREP http set headers ([f0dcf93](https://github.com/jarebudev/js-sdk-contrib/commit/f0dcf93ce97d01b79854212919afe5eacd28c860))
+* OFREP web provider failing because of wrong fetch scope ([72c6f67](https://github.com/jarebudev/js-sdk-contrib/commit/72c6f6739342bd35c40d7261c96f9ebf84352fbb))
+* Use request time to compute the retry after ([#846](https://github.com/jarebudev/js-sdk-contrib/issues/846)) ([ddc2c90](https://github.com/jarebudev/js-sdk-contrib/commit/ddc2c9042c82c9066415ce4f6243639ae94d20c5))
+
+
+### ✨ New Features
+
+* implement OFREP server provider ([#817](https://github.com/jarebudev/js-sdk-contrib/issues/817)) ([5d9f5ff](https://github.com/jarebudev/js-sdk-contrib/commit/5d9f5ffa3cebbf54f52f215ccf135edf3ab4cc87))
+* OFREP web provider ([#776](https://github.com/jarebudev/js-sdk-contrib/issues/776)) ([9626ef4](https://github.com/jarebudev/js-sdk-contrib/commit/9626ef43ae8f5252219b3a9bff51b83c4c5e6230))
+* **ofrep:** move error handling and result mapping to ofrep-core ([#822](https://github.com/jarebudev/js-sdk-contrib/issues/822)) ([18e18fa](https://github.com/jarebudev/js-sdk-contrib/commit/18e18fa5f113d064521165cf3a716913a814e8cc))
+* **ofrep:** moves base options to ofrep-core ([#834](https://github.com/jarebudev/js-sdk-contrib/issues/834)) ([474059c](https://github.com/jarebudev/js-sdk-contrib/commit/474059c207067e437a698a12582582d8b567aabf))
+* **ofrep:** ofrep core ([#795](https://github.com/jarebudev/js-sdk-contrib/issues/795)) ([17e6d57](https://github.com/jarebudev/js-sdk-contrib/commit/17e6d57e43280a73f8c5f30fddc0447a900e3c79))
+* **ofrep:** parse Retry-After header in OFREPApiTooManyRequestsError ([#841](https://github.com/jarebudev/js-sdk-contrib/issues/841)) ([ba7aa3e](https://github.com/jarebudev/js-sdk-contrib/commit/ba7aa3efbc5ffacc2008d4591b2a585df34cbd01))
+* **ofrep:** release ofrep core as 0.1.0-experimental ([#849](https://github.com/jarebudev/js-sdk-contrib/issues/849)) ([f935d08](https://github.com/jarebudev/js-sdk-contrib/commit/f935d08e823ddf199ad93974b7ef4df616c5d436))
+* support relative baseUrls ([#950](https://github.com/jarebudev/js-sdk-contrib/issues/950)) ([ceb42cb](https://github.com/jarebudev/js-sdk-contrib/commit/ceb42cb335518963a3ca5d21f15f9b439c481f2f))
+* use native headers, optional query params ([#1003](https://github.com/jarebudev/js-sdk-contrib/issues/1003)) ([383f4f3](https://github.com/jarebudev/js-sdk-contrib/commit/383f4f310d0eeed8a72f73ed8a539aeab46e3177))
+
+
+### 🧹 Chore
+
+* **main:** release ofrep-core 0.0.2-experimental ([#801](https://github.com/jarebudev/js-sdk-contrib/issues/801)) ([029dfe9](https://github.com/jarebudev/js-sdk-contrib/commit/029dfe9bddb5da1c6661c85b7d95843db4a35fdd))
+* **main:** release ofrep-core 0.0.3-experimental ([#823](https://github.com/jarebudev/js-sdk-contrib/issues/823)) ([71069c3](https://github.com/jarebudev/js-sdk-contrib/commit/71069c3ed8cbeedade3f168a8dca36fa8e304c2e))
+* **main:** release ofrep-core 0.0.4-experimental ([#833](https://github.com/jarebudev/js-sdk-contrib/issues/833)) ([a258d3d](https://github.com/jarebudev/js-sdk-contrib/commit/a258d3d56f5376bb4f1dbfe42dd725c7540f85ff))
+* **main:** release ofrep-core 0.0.5-experimental ([#838](https://github.com/jarebudev/js-sdk-contrib/issues/838)) ([35942a2](https://github.com/jarebudev/js-sdk-contrib/commit/35942a20e833ec677a46072dea34baa5f60492fc))
+* **main:** release ofrep-core 0.0.6-experimental ([#844](https://github.com/jarebudev/js-sdk-contrib/issues/844)) ([930aaae](https://github.com/jarebudev/js-sdk-contrib/commit/930aaaeec1c36094fdb0231ec80fff38636b4d21))
+* **main:** release ofrep-core 0.0.7-experimental ([#847](https://github.com/jarebudev/js-sdk-contrib/issues/847)) ([2a89869](https://github.com/jarebudev/js-sdk-contrib/commit/2a898695761e65c909ed73aa9f77c84091da9c9d))
+* **main:** release ofrep-core 0.1.1 ([#850](https://github.com/jarebudev/js-sdk-contrib/issues/850)) ([eb91982](https://github.com/jarebudev/js-sdk-contrib/commit/eb919828dfe2cdcc3f64ff6b8dcb1ac93fa313ef))
+* **main:** release ofrep-core 0.1.2 ([#851](https://github.com/jarebudev/js-sdk-contrib/issues/851)) ([3c4c271](https://github.com/jarebudev/js-sdk-contrib/commit/3c4c2714d7acfd774f14dc4ab089d48c85dd8581))
+* **main:** release ofrep-core 0.1.3 ([#883](https://github.com/jarebudev/js-sdk-contrib/issues/883)) ([2a16e0e](https://github.com/jarebudev/js-sdk-contrib/commit/2a16e0e98e661530328e75e106b60e54c4072e7e))
+* **main:** release ofrep-core 0.1.4 ([#885](https://github.com/jarebudev/js-sdk-contrib/issues/885)) ([fbb8b42](https://github.com/jarebudev/js-sdk-contrib/commit/fbb8b42d690a7c1b3fe0c78b096eb2daafc43343))
+* **main:** release ofrep-core 0.1.5 ([#951](https://github.com/jarebudev/js-sdk-contrib/issues/951)) ([3927038](https://github.com/jarebudev/js-sdk-contrib/commit/3927038f61d74ac6623ff69d16008e1c5f534fa7))
+* **main:** release ofrep-core 0.2.0 ([#1007](https://github.com/jarebudev/js-sdk-contrib/issues/1007)) ([5495a25](https://github.com/jarebudev/js-sdk-contrib/commit/5495a254de8740ec7459ebf1743f4e975578e7b2))
+* **ofrep:** add more errors to msw tests ([#832](https://github.com/jarebudev/js-sdk-contrib/issues/832)) ([c738d85](https://github.com/jarebudev/js-sdk-contrib/commit/c738d8576405539b9a2e8f13702b2c35ded9609e))
+
 ## [0.2.0](https://github.com/open-feature/js-sdk-contrib/compare/ofrep-core-v0.1.5...ofrep-core-v0.2.0) (2024-07-11)
 
 
