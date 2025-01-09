@@ -1,5 +1,48 @@
 # Changelog
 
+## [0.8.0](https://github.com/jarebudev/js-sdk-contrib/compare/go-feature-flag-provider-v0.7.3...go-feature-flag-provider-v0.8.0) (2025-01-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* update OpenFeature SDK peer ([#798](https://github.com/jarebudev/js-sdk-contrib/issues/798))
+* use @openfeature/server-sdk peer ([#608](https://github.com/jarebudev/js-sdk-contrib/issues/608))
+
+### 🐛 Bug Fixes
+
+* **gofeatureflag:** Error when receiving an empty string errorCode ([#973](https://github.com/jarebudev/js-sdk-contrib/issues/973)) ([e17b99e](https://github.com/jarebudev/js-sdk-contrib/commit/e17b99ec7328e35760175ed100a2e13be20079b7))
+* **gofeatureflag:** remove NodeJS.timeout because it fails eslint ([#961](https://github.com/jarebudev/js-sdk-contrib/issues/961)) ([e448577](https://github.com/jarebudev/js-sdk-contrib/commit/e448577b6bf2a625a2844ccc326c6c05e6041299))
+* GOFF fix issues in hook ([#585](https://github.com/jarebudev/js-sdk-contrib/issues/585)) ([6ca6463](https://github.com/jarebudev/js-sdk-contrib/commit/6ca64638c0530f35bac0184bf11a2334d7c3e5d5))
+* packaging issues impacting babel/react ([#596](https://github.com/jarebudev/js-sdk-contrib/issues/596)) ([0446eab](https://github.com/jarebudev/js-sdk-contrib/commit/0446eab5cf9b45ce7de251b4f5feb8df1d499b9d))
+
+
+### ✨ New Features
+
+* **gofeatureflag:** Clear cache if configuration changes + provider refactoring ([#947](https://github.com/jarebudev/js-sdk-contrib/issues/947)) ([338123f](https://github.com/jarebudev/js-sdk-contrib/commit/338123fadb3e421d9fce3eaf9a7a7ecbbd5961ea))
+* update OpenFeature SDK peer ([#798](https://github.com/jarebudev/js-sdk-contrib/issues/798)) ([ebd16b9](https://github.com/jarebudev/js-sdk-contrib/commit/ebd16b9630bcc6b253a7061a144e8d476cd8b586))
+
+
+### 🧹 Chore
+
+* address lint issues ([#642](https://github.com/jarebudev/js-sdk-contrib/issues/642)) ([bbd9aee](https://github.com/jarebudev/js-sdk-contrib/commit/bbd9aee896dc4a0817f379b799a1b8d331ee76c6))
+* **deps:** update dependency eslint to v8.50.0 ([#600](https://github.com/jarebudev/js-sdk-contrib/issues/600)) ([9732127](https://github.com/jarebudev/js-sdk-contrib/commit/9732127d81746bd31898b7272821bdaeced1dab4))
+* fix lint issues and bump server sdk version ([#715](https://github.com/jarebudev/js-sdk-contrib/issues/715)) ([bd57177](https://github.com/jarebudev/js-sdk-contrib/commit/bd571770f3a1a01bd62663dc3473273449f96c5c))
+* GO Feature Flag move datacollector to hook + change cache key ([#580](https://github.com/jarebudev/js-sdk-contrib/issues/580)) ([c5dd7fc](https://github.com/jarebudev/js-sdk-contrib/commit/c5dd7fcdd8521fce73daf4212adff755e2930eef))
+* goff test env correction ([#672](https://github.com/jarebudev/js-sdk-contrib/issues/672)) ([725baf3](https://github.com/jarebudev/js-sdk-contrib/commit/725baf3dea1c0ca5cb4e3ffdbcd6567797a685bb))
+* loosen some test assertions, fix e2e matcher ([#933](https://github.com/jarebudev/js-sdk-contrib/issues/933)) ([8def607](https://github.com/jarebudev/js-sdk-contrib/commit/8def6072c5d29eaf81d7262b6878cb3d6ff40483))
+* **main:** release go-feature-flag-provider 0.5.15 ([#566](https://github.com/jarebudev/js-sdk-contrib/issues/566)) ([e578c47](https://github.com/jarebudev/js-sdk-contrib/commit/e578c47e05e028762ca5fc72a99b98a9b907cfe8))
+* **main:** release go-feature-flag-provider 0.5.16 ([#587](https://github.com/jarebudev/js-sdk-contrib/issues/587)) ([0ccb5b4](https://github.com/jarebudev/js-sdk-contrib/commit/0ccb5b4c8edb7c4d82089072a3e7bc95d18d3181))
+* **main:** release go-feature-flag-provider 0.6.0 ([#601](https://github.com/jarebudev/js-sdk-contrib/issues/601)) ([03d9721](https://github.com/jarebudev/js-sdk-contrib/commit/03d972125fc9af840a1c443128de74d007e5a77f))
+* **main:** release go-feature-flag-provider 0.6.1 ([#648](https://github.com/jarebudev/js-sdk-contrib/issues/648)) ([6efd124](https://github.com/jarebudev/js-sdk-contrib/commit/6efd12476c2ed05b565fc67dd4e4ababae35adff))
+* **main:** release go-feature-flag-provider 0.6.2 ([#717](https://github.com/jarebudev/js-sdk-contrib/issues/717)) ([d7cee1d](https://github.com/jarebudev/js-sdk-contrib/commit/d7cee1d4eaac9d0c6788e626388e8e98a2559872))
+* **main:** release go-feature-flag-provider 0.7.0 ([#809](https://github.com/jarebudev/js-sdk-contrib/issues/809)) ([15d2ec5](https://github.com/jarebudev/js-sdk-contrib/commit/15d2ec5d457428629c093883bb956881e392c89e))
+* **main:** release go-feature-flag-provider 0.7.1 ([#934](https://github.com/jarebudev/js-sdk-contrib/issues/934)) ([89bdf64](https://github.com/jarebudev/js-sdk-contrib/commit/89bdf649302960d65d1dadede54495e5f84f63ea))
+* **main:** release go-feature-flag-provider 0.7.2 ([#963](https://github.com/jarebudev/js-sdk-contrib/issues/963)) ([1801837](https://github.com/jarebudev/js-sdk-contrib/commit/1801837ea8989c9cb1eabd17e68137fef07c2839))
+* **main:** release go-feature-flag-provider 0.7.3 ([#974](https://github.com/jarebudev/js-sdk-contrib/issues/974)) ([4c017d5](https://github.com/jarebudev/js-sdk-contrib/commit/4c017d5a3efcbbf62b51a32bc757678666d1b9cd))
+* revert bad goff release ([affd7af](https://github.com/jarebudev/js-sdk-contrib/commit/affd7af00803fb93057be05fc5922eb2b117e605))
+* update nx, run migrations ([#552](https://github.com/jarebudev/js-sdk-contrib/issues/552)) ([a88d8fc](https://github.com/jarebudev/js-sdk-contrib/commit/a88d8fc097789fd7f56011e6ebb66070f52c6e56))
+* use @openfeature/server-sdk peer ([#608](https://github.com/jarebudev/js-sdk-contrib/issues/608)) ([ae3732a](https://github.com/jarebudev/js-sdk-contrib/commit/ae3732a9068f684517db28ea1ae27b29a35e6b16))
+
 ## [0.7.3](https://github.com/open-feature/js-sdk-contrib/compare/go-feature-flag-provider-v0.7.2...go-feature-flag-provider-v0.7.3) (2024-06-29)
 
 
