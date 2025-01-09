@@ -1,5 +1,51 @@
 # Changelog
 
+## [0.8.0](https://github.com/jarebudev/js-sdk-contrib/compare/config-cat-provider-v0.7.2...config-cat-provider-v0.8.0) (2025-01-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* implement config cat web provider ([#918](https://github.com/jarebudev/js-sdk-contrib/issues/918))
+* update OpenFeature SDK peer ([#798](https://github.com/jarebudev/js-sdk-contrib/issues/798))
+* Allow ConfigCat provider to be used in server applications ([#796](https://github.com/jarebudev/js-sdk-contrib/issues/796))
+* use @openfeature/server-sdk peer ([#608](https://github.com/jarebudev/js-sdk-contrib/issues/608))
+
+### 🐛 Bug Fixes
+
+* Allow ConfigCat provider to be used in server applications ([#796](https://github.com/jarebudev/js-sdk-contrib/issues/796)) ([190946f](https://github.com/jarebudev/js-sdk-contrib/commit/190946ff83ede64f513d43a1791cc4dc274b0d37))
+* **config-cat:** remove event emitter type import from config-cat ([#830](https://github.com/jarebudev/js-sdk-contrib/issues/830)) ([1c76f63](https://github.com/jarebudev/js-sdk-contrib/commit/1c76f63db0c8992325ac645d308e90337529e049))
+* **config-cat:** Revise readme ([#1054](https://github.com/jarebudev/js-sdk-contrib/issues/1054)) ([7e1dd72](https://github.com/jarebudev/js-sdk-contrib/commit/7e1dd72a1450a9982b340afda62d34379d1b3f16))
+* **deps:** update dependency configcat-js to v9 ([#664](https://github.com/jarebudev/js-sdk-contrib/issues/664)) ([6fdf552](https://github.com/jarebudev/js-sdk-contrib/commit/6fdf55256cc3238fdeb9bd2bf0cde0bf494a78f9))
+* packaging issues impacting babel/react ([#596](https://github.com/jarebudev/js-sdk-contrib/issues/596)) ([0446eab](https://github.com/jarebudev/js-sdk-contrib/commit/0446eab5cf9b45ce7de251b4f5feb8df1d499b9d))
+
+
+### ✨ New Features
+
+* implement config cat web provider ([#918](https://github.com/jarebudev/js-sdk-contrib/issues/918)) ([e280014](https://github.com/jarebudev/js-sdk-contrib/commit/e280014f8998dd2e5f2b7700f0d24842eeafab5f))
+* update OpenFeature SDK peer ([#798](https://github.com/jarebudev/js-sdk-contrib/issues/798)) ([ebd16b9](https://github.com/jarebudev/js-sdk-contrib/commit/ebd16b9630bcc6b253a7061a144e8d476cd8b586))
+
+
+### 🧹 Chore
+
+* address lint issues ([#642](https://github.com/jarebudev/js-sdk-contrib/issues/642)) ([bbd9aee](https://github.com/jarebudev/js-sdk-contrib/commit/bbd9aee896dc4a0817f379b799a1b8d331ee76c6))
+* fix lint issues and bump server sdk version ([#715](https://github.com/jarebudev/js-sdk-contrib/issues/715)) ([bd57177](https://github.com/jarebudev/js-sdk-contrib/commit/bd571770f3a1a01bd62663dc3473273449f96c5c))
+* Lint Fix Providers ([#837](https://github.com/jarebudev/js-sdk-contrib/issues/837)) ([8c6c46b](https://github.com/jarebudev/js-sdk-contrib/commit/8c6c46b5f8f72c5a292af7e5ff8ad8d710982554))
+* lock configcat dep ([#827](https://github.com/jarebudev/js-sdk-contrib/issues/827)) ([28f25a2](https://github.com/jarebudev/js-sdk-contrib/commit/28f25a25cfc6ba3262472c7bad061ae3b256aba3))
+* **main:** release config-cat-provider 0.4.0 ([#564](https://github.com/jarebudev/js-sdk-contrib/issues/564)) ([0af218c](https://github.com/jarebudev/js-sdk-contrib/commit/0af218c3c65ca998bf4b7da2266a6f8100add0e6))
+* **main:** release config-cat-provider 0.5.0 ([#644](https://github.com/jarebudev/js-sdk-contrib/issues/644)) ([73041e5](https://github.com/jarebudev/js-sdk-contrib/commit/73041e50eaaaea5bc836e43dcd7284833078e052))
+* **main:** release config-cat-provider 0.6.0 ([#804](https://github.com/jarebudev/js-sdk-contrib/issues/804)) ([5ef793d](https://github.com/jarebudev/js-sdk-contrib/commit/5ef793d9ed2e9fead3d40159e3f385af5211f587))
+* **main:** release config-cat-provider 0.6.1 ([#828](https://github.com/jarebudev/js-sdk-contrib/issues/828)) ([14322d2](https://github.com/jarebudev/js-sdk-contrib/commit/14322d2e009077dfb47b6e35001f3635e591c9c0))
+* **main:** release config-cat-provider 0.7.0 ([#1011](https://github.com/jarebudev/js-sdk-contrib/issues/1011)) ([020b42e](https://github.com/jarebudev/js-sdk-contrib/commit/020b42e466fc3c60f5487af4f2b1509913285a2b))
+* **main:** release config-cat-provider 0.7.1 ([#1015](https://github.com/jarebudev/js-sdk-contrib/issues/1015)) ([fc7163b](https://github.com/jarebudev/js-sdk-contrib/commit/fc7163b98aa276bba8409e53d3638cfddc0dc21a))
+* **main:** release config-cat-provider 0.7.2 ([#1056](https://github.com/jarebudev/js-sdk-contrib/issues/1056)) ([0267275](https://github.com/jarebudev/js-sdk-contrib/commit/0267275f56767117b84fc1dc2a0efc2877753c24))
+* update nx, run migrations ([#552](https://github.com/jarebudev/js-sdk-contrib/issues/552)) ([a88d8fc](https://github.com/jarebudev/js-sdk-contrib/commit/a88d8fc097789fd7f56011e6ebb66070f52c6e56))
+* use @openfeature/server-sdk peer ([#608](https://github.com/jarebudev/js-sdk-contrib/issues/608)) ([ae3732a](https://github.com/jarebudev/js-sdk-contrib/commit/ae3732a9068f684517db28ea1ae27b29a35e6b16))
+
+
+### 📚 Documentation
+
+* A few corrections to ConfigCat providers' README.md ([#1014](https://github.com/jarebudev/js-sdk-contrib/issues/1014)) ([3b24653](https://github.com/jarebudev/js-sdk-contrib/commit/3b24653854643c827bddccb12aeb59e61204202d))
+
 ## [0.7.2](https://github.com/open-feature/js-sdk-contrib/compare/config-cat-provider-v0.7.1...config-cat-provider-v0.7.2) (2024-09-20)
 
 
